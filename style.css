@@ -1,0 +1,111 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+    background-image: url(./wp4021308.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main-parent{
+    width: 100%;
+    height: 600px;
+}
+.nav-bar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    margin-top: 40px;
+    padding-right: 40px;
+    justify-content: end;
+}
+.berger{
+    display: flex;
+    gap: 40px;
+    padding-right: 80px;
+    margin-left: 40px;
+}
+ul{
+    display: flex;
+    gap:40px;
+}
+li{
+    display: flex;
+    text-decoration: none;
+}
+.main-contener{
+    display: flex;
+}
+.contener1{
+    width: 100%;
+    justify-content: center;
+    height: 500px;
+    color: white;
+    padding-left: 20px;
+}
+h1{
+    font-size: 80px;
+    font-weight: bold;
+}
+p{
+    padding-top: 40px;
+}
+button{
+    width: 150px;
+    height: 30px;
+    margin-top: 40px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+
+.contener2{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    display: grid;
+    row-gap: 20px;
+    column-gap: 50px;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+}
+.cart{
+    margin-top: 20px;
+    padding-top: 20px;
+    width: 100%;
+    height: auto;
+    color: white;
+    /* padding: 20px; */
+    border-radius: 10px;
+    box-shadow: 1px 8px 15px rgb(199, 171, 135);
+    
+}
+.item1{
+   padding-left: 20px; 
+   background-image:url(./jaislamer-600x600.png);
+   background-size: cover;
+   filter:saturate(2);
+}
+.item2{
+    padding-left: 20px; 
+    background-image:url(./badal\ mahal.jpg);
+    background-size: cover;
+    filter: brightness(130%);
+ }
+ .item3{
+    padding-left: 20px; 
+    background-image:url(./kadmandu.jpg);
+    background-size: cover;
+    filter:saturate(2);
+ }
+ .item4{
+    padding-left: 20px; 
+    background-image:url(./960385-landscape-nature-beauty-amazing-mountain-sky.jpg);
+    background-size: cover;
+    filter:saturate(2);
+ }
+
+
+
+
